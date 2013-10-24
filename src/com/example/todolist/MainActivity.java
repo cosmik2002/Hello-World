@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements NewItemFragment.OnNewItemA
 		aa = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,todoItems);
 		todoListFragment.setListAdapter(aa);
 	}
-
+//123
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
